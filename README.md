@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @emmahogberg88
 - 👀 I’m interested in frontend development
-- 🌱 I’m currently learning frontend development from "The Frontend Development Career Path" at Scrimba ✨
+- 🌱 I’m an aspiring frontend developmentv✨
 
 <!---
 emmahogberg88/emmahogberg88 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
