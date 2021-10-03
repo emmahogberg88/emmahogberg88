@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  background-color: whitesmoke;
+  background-image: url("../img/annie-spratt-0ZPSX_mQ3xI-unsplash.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  background:#202020;;
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+h1, 
+h2 {
+  font-family: "Caveat Brush", cursive;
+}
+
+h1 {
+  color: whitesmoke;
+  letter-spacing: 15px;
+  font-size: 5rem;
+  text-align: center;
+}
+
+h2 {
+  color: #202020;
+  letter-spacing: 10px;
+  font-size: 2.5rem;
+  padding: 0;
+}
+
+p {
+  color: #202020;
+  line-height: 1.7em;
+  margin: 0;
+  padding-bottom: 1em;
+}
+
+li {
+  list-style-type: none;
+  margin: 1em 0;
+  padding: 0.4em 0;
+  text-align: right;
+}
+
+li:last-child {
+  padding-bottom: 1em;
+}
+
+ul a:link {
+  color: #202020;
+  background: rgb(235, 123, 49, 0.8);
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  border-radius: 5px;
+  padding: 0.4em 0.9em;
+  font-weight: bold;
+  text-decoration-line: none;
+}
+
+a:visited {
+  color:#202020;
+}
+
+a:hover,
+a:focus {
+  background: #101010;
+  color: whitesmoke;
+}
+
+footer {
+  background: #202020;
+  margin-top: 1em;
+  width: 100vw;
+  padding: 8px;
+}
+
+footer > p {
+  color: whitesmoke;
+  text-align: center;
+  padding: 0;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content-text,
+.content-links{
+  background-color: rgb(235, 123, 49, 0.3);
+  width: 75%;
+  border-radius: 15px;
+  padding: 0.5em 1em;
+  margin: 1em 0;
+}
+
+#stack-img {
+  margin: 1em;
+  border-radius: 14%;
+  height: 200px;
+  width: 200px;
+  text-align: center;
+}
+
+@media (min-width: 1000px) {
+
+  .main-content {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .content-text,
+  .content-links {
+    background-color: rgb(235, 123, 49, 0.3);
+    max-width: 45%;
+    margin-left: 2em;
+  }
+
+  #stack-img {
+    position: relative;
+    margin: 2em;
+    height: 250px;
+    width: 250px;
+  }
+
+  footer {
+    position: absolute;
+    bottom: 0;
+  }
+
+}
